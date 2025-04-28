@@ -4,7 +4,7 @@ maioridadehomem = 0
 nomevelho = ''
 mulher20 = 0
 for p in range(1, 5):
-    print('----- {} PESSOA -----')
+    print(f'----- {p} PESSOA -----')
     nome = str(input('Nome: ')).strip()
     idade = int(input('Idade: '))
     sexo = str(input('Sexo [M/F]: ')).strip()

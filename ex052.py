@@ -1,4 +1,4 @@
-numero = int(input('Digite the number: '))
+numero = int(input('Digite um número: '))
 total = 0
 for c in range(1, numero+1):
     if numero % c == 0:
@@ -12,5 +12,5 @@ if total == 2:
     print('O número é Primo')
 else:
     print('O número não é Primo')
-print('SayCat <3')
+
  

@@ -6,6 +6,6 @@ print('Tirando {:.1f} e {:.1f}, a média do aluno é {:.1f}'.format(
 if media < 5:
     print('Aluno reprovado')
 elif media == 5 or media < 7:
-    print('Aluno na recu')
+    print('Aluno na recuperação')
 else:
     print('Aluno aprovado')

@@ -14,4 +14,4 @@ elif forma == 3:
     print('A conversão do número {} para Hexadecimal é: {}'.format(
         n, hex(n)[2:]))
 else:
-    print('Escolhe direito mizera')
+    print('Conversão não encontrada')
