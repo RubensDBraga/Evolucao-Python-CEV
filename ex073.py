@@ -1,0 +1,18 @@
+times_colocados = ('Atlético_MG', 'Bahia', 'Botafogo', 'Ceará', 'Corinthians', 'Cruzeiro', 'Flamengo', 'Fluminense', 'Fortaleza',
+                   'Grêmio', 'Internacional', 'Juventude', 'Mirassol', 'Palmeiras', 'Bragantino', 'Santos', 'São_Paulo', 'Sport', 'Vasco', 'Vitória')
+print('-=-'*10)
+print('Lista de times do Brasileirão: ', end='')
+for t in times_colocados:
+    print(t, end=', ')
+print('')
+'''print(f'Lista de times do Brasileirão: {times_colocados}')'''
+print('-=-'*10)
+print(f'Os 5 primeiros são: {times_colocados[0:5]}')
+print('-=-'*10)
+print(f'Os 4 últimos são: {times_colocados[-4:]}')
+print('-=-'*10)
+print(f'Times em ordem alfabética: {sorted(times_colocados)}')
+print('-=-'*10)
+print(f'O Bahia está na {times_colocados.index('Bahia')+1}º posição')
+print('-=-'*10)
+print(f'O Vitória está na {times_colocados.index('Vitória')+1}º posição\n')
