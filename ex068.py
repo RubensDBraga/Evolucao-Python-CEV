@@ -19,7 +19,7 @@ while True:
             break
         else:
             print(
-                f'Perdi ;-; Eu escolhi {aleatorio} e você {numero}. Total de {aleatorio+numero}. DEU ÍMPAR\n')
+                f'Perdi. Eu escolhi {aleatorio} e você {numero}. Total de {aleatorio+numero}. DEU ÍMPAR\n')
             print('Você VENCEU!')
             print('Vamos jogar novamente...')
             vitorias = vitorias + 1
@@ -37,9 +37,9 @@ while True:
             break
         else:
             print(
-                f'Perdi ;-; Eu escolhi {aleatorio} e você {numero}. Total de {aleatorio+numero}. DEU PAR\n')
+                f'Perdi. Eu escolhi {aleatorio} e você {numero}. Total de {aleatorio+numero}. DEU PAR\n')
             print('Você VENCEU!')
             print('Vamos jogar novamente...')
             vitorias = vitorias + 1
 print('=-='*18)
-print(f'GAME OVER! Você venceu com {vitorias} vezes.\n')
+print(f'GAME OVER! Você terminou com {vitorias} vitórias.\n')

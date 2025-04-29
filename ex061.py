@@ -8,4 +8,4 @@ while contador <= 10:
     print('{} -> '.format(termo), end='')
     termo = termo + razao
     contador += 1
-print('Cabousi')
+print('Fim')

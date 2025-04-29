@@ -12,5 +12,5 @@ while mais != 0:
         numero = numero + razao
         contador += 1
     print('PAUSA')
-    mais = int(input('Quantos: '))
+    mais = int(input('Mais quantos: '))
 print('Progressão finalizada com {} termos mostrados.'.format(total))

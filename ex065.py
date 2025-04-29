@@ -6,7 +6,7 @@ menor = 0
 while continua in 'Ss':
     numeros = int(input('Números: '))
     acumulador += numeros
-    if contador == 1:
+    if contador == 0:
         maior = menor = numeros
     else:
         if numeros > maior:
