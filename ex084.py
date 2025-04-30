@@ -21,10 +21,10 @@ print(f'Foram cadastradas {len(nome_peso)} pessoas.')
 print(f'O maior peso foi de {pesado}. Peso de ', end='')
 for p in nome_peso:
     if p[1] == pesado:
-        print(f'[{p[0]}] ', end='')
+        print(f'{p[0]} ', end='')
 print()
 print(f'O menor peso foi de {leve}. Peso de ', end='')
 for p in nome_peso:
     if p[1] == leve:
-        print(f'[{p[0]}] ', end='')
+        print(f'{p[0]} ', end='')
 print()

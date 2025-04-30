@@ -5,7 +5,6 @@ print('Lista de times do Brasileirão: ', end='')
 for t in times_colocados:
     print(t, end=', ')
 print('')
-'''print(f'Lista de times do Brasileirão: {times_colocados}')'''
 print('-=-'*10)
 print(f'Os 5 primeiros são: {times_colocados[0:5]}')
 print('-=-'*10)
