@@ -15,7 +15,7 @@ for q, a in enumerate(alunos):
     print(f'{q:<4}{a[0]:<10}{a[2]:>8.1f}')
 print('-'*26)
 while True:
-    aluno_notas = int(input('Mostrar notas de qual aluno? (999 close)'))
+    aluno_notas = int(input('Mostrar notas de qual aluno? (999 para sair)'))
     if aluno_notas == 999:
         print()
         print('Finalizando...')
