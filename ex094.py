@@ -32,4 +32,4 @@ for pessoa in cadastro_lista:
         for key, value in pessoa.items():
             print(f'{key} = {value}', end='; ')
 print()
-print('\nCABOOO')
+print('\nFim!')

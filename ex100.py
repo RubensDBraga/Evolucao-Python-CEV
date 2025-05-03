@@ -10,7 +10,7 @@ def sorteia(lista):
         print(f'{num}', end=' ', flush=True)
         lista.append(num)
         sleep(0.5)
-    print('Fechô lá!')
+    print('Sorteados!')
 
 
 def somapar(somar):

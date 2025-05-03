@@ -17,7 +17,7 @@ while True:
         resp = str(input('Quer continuar? [S/N] ')).strip().upper()
     if resp == 'N':
         break
-print('='*20)
+print('='*25)
 print()
 print('Cod ', end='')
 for key in jogador.keys():
@@ -39,5 +39,5 @@ while True:
     else:
         print(
             f'-- LEVANTAMENTO DO JOGADOR {jogador_lista[busca]['nome']} --'.upper())
-        for kay, val in enumerate(jogador_lista[busca]['gol']):
-            print(f'    No jogo {kay+1} fez {val} gols.')
+        for key, val in enumerate(jogador_lista[busca]['gol']):
+            print(f'    No jogo {key+1} fez {val} gols.')
