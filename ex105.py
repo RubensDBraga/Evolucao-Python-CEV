@@ -12,7 +12,7 @@ def notas(*noti, sit=False):
     if media >= 5:
         situ = 'RAZOÁVEL'
     else:
-        situ = 'RUIMPKRLH'
+        situ = 'RUIM'
     diquit = {'total': len(noti), 'maior': max(noti), 'menor': min(
         noti), 'media': media, 'situacao': situ}
     if sit == False:

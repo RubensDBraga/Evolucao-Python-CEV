@@ -8,7 +8,7 @@ def infos(func):
             print(f'  {texto}  ')
             print('~'*tiu)
             break
-        texto = f"Acessando o manuel do comando '{entrada}'"
+        texto = f"Acessando o manual do comando '{entrada}'"
         tiu = len(texto) + 4
         print('~'*tiu)
         print(f'  {texto}  ')

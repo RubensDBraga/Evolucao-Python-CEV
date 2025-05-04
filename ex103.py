@@ -12,14 +12,4 @@ if jogador.strip() == '':
     ficha(gol=gols)
 else:
     ficha(jogador, gols)
-
-'''
-def detalhes(**info):
-    print(f"Nome: {info.get('nome', 'Desconhecido')}")
-    print(f"Idade: {info.get('idade', 'Não informada')}")
-
-detalhes(nome="Ana")  
-# Saída: 
-# Nome: Ana
-# Idade: Não informada
-'''
+    
